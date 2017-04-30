@@ -6,7 +6,7 @@
   Form1_Load, создание лишних переменных  | необработанные исключения| Обработать|
    backgroundWorker2_DoWork  | необработанные исключения, создание лишних переменных| Обработать исключения, избавиться от лишних переменных|
 Автор кода: Цикунов А.В.
-http://gamessolutions.ru/test1.cs
-http://gamessolutions.ru/test2.cs исправленный
+https://github.com/gib130/audit/blob/master/test1.cs
+https://github.com/gib130/audit/blob/master/test2.cs исправленный
 Инспектор:
 Цикунов А.В.
