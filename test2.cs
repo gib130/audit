@@ -78,31 +78,15 @@ namespace testrok
                 data1["TP"] = this.comboBox1.SelectedItem.ToString();
                 data1["PL"] = GetMaxSlots();
                 data1["PC"] = GetOnline();
+                data1["DE"] = "FALSE";
+                data1["OF"] = "FALSE";
+                data1["PR"] = "FALSE";
                 if (this.checkBox1.Checked)
-                {
                     data1["DE"] = "TRUE";
-                }
-                else
-                {
-                    data1["DE"] = "FALSE";
-                }
-
                 if (this.checkBox2.Checked == true)
-                {
                     data1["OF"] = "TRUE";
-                }
-                else
-                {
-                    data1["OF"] = "FALSE";
-                }
                 if (this.checkBox3.Checked == true)
-                {
                     data1["PR"] = "TRUE";
-                }
-                else
-                {
-                    data1["PR"] = "FALSE";
-                }
                 data1["ON"] = "TRUE";
                 return data1;
             }
