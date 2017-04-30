@@ -1,3 +1,4 @@
+require 'github/markup'
 #Readme
 Автор кода: Цикунов А.В.
 http://gamessolutions.ru/test1.cs
